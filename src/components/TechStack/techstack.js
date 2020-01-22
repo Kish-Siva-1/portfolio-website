@@ -24,19 +24,19 @@ export const TechStack = () => {
                         <br />
                         <h4>Other</h4>
                         <br />
-                        <img id="jestjs" className = "img-fluid portfolio-img" src="/assets/img/logos/JestJS.png" alt="jest" />
+                        <img id="jestjs" className = "img-fluid portfolio-img" src="/assets/img/logos/jest.png" alt="jest" />
                         <br />
                         <br />
                         <img id="sql" className = "img-fluid portfolio-img" src="/assets/img/logos/sql.svg" alt="sql" />
                         <br />
                         <br />
-                        <img id="R_Logo" className = "img-fluid portfolio-img" src="/assets/img/logos/R_Logo.svg.png" alt="R_Logo" />
+                        <img id="R_Logo" className = "img-fluid portfolio-img" src="/assets/img/logos/R.png" alt="R_Logo" />
                         <br />
                         <br />
                         <img id="matlab" className = "img-fluid portfolio-img" src="/assets/img/logos/matlab.svg" alt="matlab" />
                     </div>
 
-                    <div className="col-md-3 flex-column text-center">
+                    <div id="database" className="col-md-3 flex-column text-center">
                         <br />
                         <h4>Databases</h4>
                         <br />
@@ -67,10 +67,10 @@ export const TechStack = () => {
                         <br />
                         <h4>Front End</h4>
                         <br />
-                        <img id="html5" className = "img-fluid portfolio-img" src="/assets/img/logos/html5.svg" alt="html5" />
+                        <img id="html5" className = "img-fluid portfolio-img" src="/assets/img/logos/html.svg" alt="html5" />
                         <br />
                         <br />
-                        <img id="css3" className = "img-fluid portfolio-img" src="/assets/img/logos/css3.svg" alt="css3" />
+                        <img id="css3" className = "img-fluid portfolio-img" src="/assets/img/logos/css.svg" alt="css3" />
                         <br />
                         <br />
                         <img id="javascript" className = "img-fluid portfolio-img" src="/assets/img/logos/javascript.svg" alt="javascript" />

@@ -6,17 +6,29 @@ $screen-md-min: 768px;
     }
 }
 
+@mixin transition {
+    @for $i from 1 through 30 {
+        &:nth-child(#{$i}) {
+            &:hover{
+                transform: scale(1.2);
+            }
+      }
+    }
+}
+
 #rows {
     background: rgba(44, 62, 80, 0.8) ;
     border-radius: 25px;
     @include mobile {
         border-radius: 0px;
     }
+    img {
+        @include transition;
+    }
   }
 
 #rows h4{
     font-family: 'Raleway';
-    // font-size: ;
 }
 
 #nodejs {
@@ -42,10 +54,6 @@ $screen-md-min: 768px;
 #css3 {
     width: 30%
 }
-
-// #nodejs {
-//     width: 40%
-// }
 
 #jestjs{
     width: 20%

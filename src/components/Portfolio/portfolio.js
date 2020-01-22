@@ -4,6 +4,7 @@ import { projects } from "./projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 
+
 export const Portfolio = () => {
   
   const generateProjects = () => {
