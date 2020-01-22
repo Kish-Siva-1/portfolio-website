@@ -24,26 +24,26 @@ export const TechStack = () => {
                         <br />
                         <h4>Other</h4>
                         <br />
-                        <img id="jestjs" className = "img-fluid portfolio-img" src="/assets/img/JestJS.png" alt="jest" />
+                        <img id="jestjs" className = "img-fluid portfolio-img" src="/assets/img/logos/JestJS.png" alt="jest" />
                         <br />
                         <br />
-                        <img id="sql" className = "img-fluid portfolio-img" src="/assets/img/sql.svg" alt="sql" />
+                        <img id="sql" className = "img-fluid portfolio-img" src="/assets/img/logos/sql.svg" alt="sql" />
                         <br />
                         <br />
-                        <img id="R_Logo" className = "img-fluid portfolio-img" src="/assets/img/R_Logo.svg.png" alt="R_Logo" />
+                        <img id="R_Logo" className = "img-fluid portfolio-img" src="/assets/img/logos/R_Logo.svg.png" alt="R_Logo" />
                         <br />
                         <br />
-                        <img id="matlab" className = "img-fluid portfolio-img" src="/assets/img/matlab.svg" alt="matlab" />
+                        <img id="matlab" className = "img-fluid portfolio-img" src="/assets/img/logos/matlab.svg" alt="matlab" />
                     </div>
 
                     <div className="col-md-3 flex-column text-center">
                         <br />
                         <h4>Databases</h4>
                         <br />
-                        <img id="mongodb" className = "img-fluid portfolio-img" src="/assets/img/mongodbBadge.svg" alt="mongodb" /> 
+                        <img id="mongodb" className = "img-fluid portfolio-img" src="/assets/img/logos/mongodbBadge.svg" alt="mongodb" /> 
                         <br />
                         <br />
-                        <img id="postgreSQL" className = "img-fluid portfolio-img" src="/assets/img/postgreSQL.svg" alt="postgreSQL" />
+                        <img id="postgreSQL" className = "img-fluid portfolio-img" src="/assets/img/logos/postgreSQL.svg" alt="postgreSQL" />
                         <br />
                         <br />
                     </div>

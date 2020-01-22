@@ -3,6 +3,7 @@ import { StackContainer } from "./StackContainer";
 
 export const ProjectModal = props => {
   return (
+
     <div
       className="portfolio-modal modal fade" id={`portfolioModal${props.id}`} tabIndex="-1"
       role="dialog"
@@ -39,8 +40,8 @@ export const ProjectModal = props => {
                   </div>
                   <a href={props.link}>
                     <img
-                      className="img-fluid rounded mb-5 portfolio-img"
-                      src={`./assets/${props.image_name}`}
+                      className="img-fluid rounded mb-5 portfolio-img cover"
+                      src={`./assets/img/projects/${props.image_name}`}
                       alt=""
                     />
                   </a>

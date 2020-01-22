@@ -11,7 +11,7 @@ export const projects = [
         </p>
       </div>
     ),
-    image_name: "cabin.png",
+    image_name: "gym.svg",
     github_link: "https://github.com/Kish-Siva-1/Rails_JS_Gym_Repo",
     link: "https://drive.google.com/open?id=1fkzhGEUDaJvmdTHR-SMcypAHeiqBbGHt",
     stack: ["postgresql", "rails"]
@@ -21,7 +21,7 @@ export const projects = [
     name: "Crunchbase News Scraper",
     description:
       "Gather and read the latest tech news from Crunchbase quickly and efficiently from the comfort of your command line",
-    image_name: "cake.png",
+    image_name: "crunchbasenews.svg",
     github_link: "https://github.com/Kish-Siva-1/crunchbase-news",
     link: "https://drive.google.com/file/d/1LWhRaPLsSSXoQ6g3Bj_jRbkAa4PoPv2K/view?usp=sharing",
     stack: ["ruby"]
@@ -31,7 +31,7 @@ export const projects = [
     name: "Portfolio Manager",
     description:
       "Keep track of your portfolio weights and returns with Portfolio Manager.",
-    image_name: "circus.png",
+    image_name: "portfolio.svg",
     github_link: "https://github.com/Kish-Siva-1/portfolio_manager.git",
     link: "https://drive.google.com/file/d/1eIehHgb0BVtuO-FTehV2XvFYUN5E-ftN/view?usp=sharing",
     stack: ["ruby", "sinatra", "sqllite"]
@@ -41,7 +41,7 @@ export const projects = [
     name: "FireSale",
     description:
       "Keep track of your inventory of products and services using FireSale.",
-    image_name: "game.png",
+    image_name: "sales.jpg",
     github_link: "https://github.com/Kish-Siva-1/firesale-client.git",
     link: "http://firesale-client.herokuapp.com/",
     stack: ["react", "redux", "rails", "postgresql"]
@@ -50,7 +50,7 @@ export const projects = [
     id: "5",
     name: "Roman Numeral Calculator",
     description: "A calculator for calculating roman numerals.",
-    image_name: "cabin.png",
+    image_name: "calculator.svg",
     github_link: "https://github.com/Kish-Siva-1/roman-numeral-calculator",
     link: "https://roman-num-calc-online.firebaseapp.com/",
     stack: ["react", "redux", "jest", "css"]
@@ -59,7 +59,7 @@ export const projects = [
     id: "6",
     name: "Language Tester",
     description: "Add words along with their translations in the language you’re learning and then use Test Mode to quiz yourself!",
-    image_name: "cabin.png",
+    image_name: "flashcard.png",
     github_link: "https://github.com/Kish-Siva-1/sitejet-client",
     link: "http://sitejet-client.herokuapp.com/",
     stack: ["react", "redux", "css", "rails"]

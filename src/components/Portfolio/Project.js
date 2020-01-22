@@ -13,7 +13,7 @@ export const Project = props => {
             < FontAwesomeIcon icon={faPlus} size="3x" />
           </div>
         </div>
-        <img className="img-fluid" src={`/assets/img/${props.image_name}`} alt="" />
+        <img className="img-fluid" src={`/assets/img/projects/${props.image_name}`} alt="" />
       </div>
       <ProjectModal {...props} />
     </div>
