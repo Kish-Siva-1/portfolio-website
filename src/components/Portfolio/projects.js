@@ -3,94 +3,65 @@ import React from "react";
 export const projects = [
   {
     id: "1",
-    name: "HackTurabo",
+    name: "Gym Workout Tracker",
     description: (
       <div>
         <p>
-          A non profit student organization which is run by students. It began
-          with isolated hackathons that have now evolved into a more structured
-          organization, with the purpose of expanding the hacker community in
-          Puerto Rico.
-        </p>
-        <br />
-        <p>
-          I contributed to building their website with the help of{" "}
-          <a
-            href="https://www.linkedin.com/in/pjgs-profile/?originalSubdomain=pr"
-            target="_blank"
-          >
-            Pedro Giusti
-          </a>{" "}
-          and Gabriela Rivera Mejías.
+          Keep track of your workout routines and the weights you have lifted with the Gym Workout Tracker
         </p>
       </div>
     ),
-    // image_name: "hackturabo.png",
     image_name: "cabin.png",
-    link: "https://hackturabo.com/home",
-    stack: ["nodejs", "express", "mongodb"]
+    github_link: "https://github.com/Kish-Siva-1/Rails_JS_Gym_Repo",
+    link: "https://drive.google.com/open?id=1fkzhGEUDaJvmdTHR-SMcypAHeiqBbGHt",
+    stack: ["postgresql", "rails"]
   },
   {
     id: "2",
-    name: "countries cli",
+    name: "Crunchbase News Scraper",
     description:
-      "A CLI of countries based on the REST Countries API. It allows you to look for information on countries based on population, region, currency, subregion, name, capital, and language.",
-    // image_name: "countries-cli-image.png",
+      "Gather and read the latest tech news from Crunchbase quickly and efficiently from the comfort of your command line",
     image_name: "cake.png",
-    github_link: "https://github.com/kyoung90/country",
-    link: "https://countries-cli.kennethyoung.repl.run/",
+    github_link: "https://github.com/Kish-Siva-1/crunchbase-news",
+    link: "https://drive.google.com/file/d/1LWhRaPLsSSXoQ6g3Bj_jRbkAa4PoPv2K/view?usp=sharing",
     stack: ["ruby"]
   },
   {
     id: "3",
-    name: "iDid Portfolio",
+    name: "Portfolio Manager",
     description:
-      "A site where you can have your own portfolio or look at other people's portfolio for a list of their projects.",
-    // image_name: "IdidPortfolio.png",
+      "Keep track of your portfolio weights and returns with Portfolio Manager.",
     image_name: "circus.png",
-    github_link: "https://github.com/kyoung90/iDidPortfolio",
-    link: "https://ididportfolio.herokuapp.com/projects",
-    stack: ["ruby", "sinatra", "postgresql"]
+    github_link: "https://github.com/Kish-Siva-1/portfolio_manager.git",
+    link: "https://drive.google.com/file/d/1eIehHgb0BVtuO-FTehV2XvFYUN5E-ftN/view?usp=sharing",
+    stack: ["ruby", "sinatra", "sqllite"]
   },
   {
     id: "4",
-    name: "Love Every Pound",
+    name: "FireSale",
     description:
-      "A site where you can keep track of your weight, get random quotes based on your preference, add/update/delete weights and see them visually on a calendar and a chart!",
-    // image_name: "LoveEveryPound.png",
+      "Keep track of your inventory of products and services using FireSale.",
     image_name: "game.png",
-    github_link: "https://github.com/kyoung90/love_every_pound_front_end",
-    link: "https://love-every-pound.netlify.com/",
-    stack: ["ruby", "rails", "react", "redux", "postgresql"]
+    github_link: "https://github.com/Kish-Siva-1/firesale-client.git",
+    link: "http://firesale-client.herokuapp.com/",
+    stack: ["react", "redux", "rails", "postgresql"]
   },
   {
     id: "5",
-    name: "Código Ecuador",
-    description: (
-      <div>
-        <p>
-          A non profit organization dedicated to creating a more equal world
-          between countries and across genders. They want to train young women
-          to take on technology careers in Ecuador.
-        </p>
-        <br />
-        <p>
-          I contributed to building their website with the help of my Flatiron
-          School cohort friends. Visit the{" "}
-          <a
-            href="https://github.com/joanrig/codigo-ecuador-web"
-            target="_blank"
-          >
-            github link
-          </a>{" "}
-          for more details.
-        </p>
-      </div>
-    ),
-    // image_name: "codigoEcuador.png",
+    name: "Roman Numeral Calculator",
+    description: "A calculator for calculating roman numerals.",
     image_name: "cabin.png",
-    github_link: "https://github.com/joanrig/codigo-ecuador-web",
-    link: "https://codigo-ecuador.firebaseapp.com/",
-    stack: ["react", "redux"]
+    github_link: "https://github.com/Kish-Siva-1/roman-numeral-calculator",
+    link: "https://roman-num-calc-online.firebaseapp.com/",
+    stack: ["react", "redux", "jest", "css"]
+  },
+  {
+    id: "6",
+    name: "Language Tester",
+    description: "Add words along with their translations in the language you’re learning and then use Test Mode to quiz yourself!",
+    image_name: "cabin.png",
+    github_link: "https://github.com/Kish-Siva-1/sitejet-client",
+    link: "http://sitejet-client.herokuapp.com/",
+    stack: ["react", "redux", "css", "rails"]
   }
 ];

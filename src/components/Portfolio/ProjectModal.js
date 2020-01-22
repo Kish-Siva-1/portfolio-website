@@ -2,38 +2,77 @@ import React from "react";
 import { StackContainer } from "./StackContainer";
 
 export const ProjectModal = props => {
-
   return (
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div
+      className="portfolio-modal modal fade" id={`portfolioModal${props.id}`} tabIndex="-1"
+      role="dialog"
+      aria-labelledby={`portfolioModal${props.id}Label`}
+      aria-hidden="true"
+    >
+      <div className="modal-dialog modal-xl" role="document">
+        <div className="modal-content">
+          <button
+            type="button"
+            className="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
             <span aria-hidden="true">
-              <i class="fas fa-times"></i>
+              <i className="fa fa-times"></i>
             </span>
           </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
+          <div className="modal-body text-center">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <a href={props.link}>
+                    <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">
+                      {props.name}
+                    </h2>
+                  </a>
+                  <div className="divider-custom">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon">
+                      <i className="fa fa-star"></i>
                     </div>
-                    <div class="divider-custom-line"></div>
+                    <div className="divider-custom-line"></div>
                   </div>
+                  <a href={props.link}>
+                    <img
+                      className="img-fluid rounded mb-5 portfolio-img"
+                      src={`./assets/${props.image_name}`}
+                      alt=""
+                    />
+                  </a>
+                  <StackContainer stack={props.stack} />
+                  <p className="mb-5">{props.description}</p>
 
-                  <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="" />
-
-                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                  <button class="btn btn-primary" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                </button>
+                  <div className="d-flex justify-content-around">
+                    <button
+                      className="btn btn-primary"
+                      href="#"
+                      data-dismiss="modal"
+                    >
+                      <i className="fa fa-times fa-fw"></i>
+                      Close
+                    </button>
+                    {props.github_link && (
+                      <button
+                        className="btn btn-primary"
+                        onClick={() => window.open(props.github_link, "_blank")}
+                      >
+                        <i className="fa fa-github fa-lg" ariaHidden={true}></i>{" "}
+                        GitHub
+                      </button>
+                    )}
+                    <button
+                      className="btn btn-primary"
+                      onClick={() => window.open(props.link, "_blank")}
+                    >
+                      <i className="fa fa-arrow-right" ariaHidden={true}></i>{" "}
+                      Live
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

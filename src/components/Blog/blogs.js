@@ -11,7 +11,6 @@ export const Blogs = () => {
     )
       .then(resp => resp.json())
       .then(blogData => {
-        console.log(blogData["items"]);
         setBlogs(
           blogData["items"].filter(blog => blog.thumbnail.endsWith(".png"))
         );
@@ -39,7 +38,7 @@ export const Blogs = () => {
 
         <div className="card-deck">{generateBlogs()}</div>
         <p className="text-center">
-          <a href="https://medium.com/@kenneth.young90" target="_blank" className="btn btn-primary btn-lg">More Blogs</a>
+          <a href="https://medium.com/@kishandth.sivapalasundaram" target="_blank" className="btn btn-primary btn-lg">More Blogs</a>
         </p>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './App.css';
-import { Navbar, Home, About, TechStack, Portfolio, Blogs, Contact, Footer, CopyRight } from "./components/index";
+import { Navbar, Home, About, TechStack, Portfolio, Blogs, Contact, CopyRight } from "./components/index";
+// import { Navbar } from "./components/NavBar/navBar";
 
 class App extends React.Component {
   render() {
@@ -14,7 +15,6 @@ class App extends React.Component {
         <Portfolio id="portfolio" />
         <Blogs />
         <Contact />
-        <Footer />
         <CopyRight />
 
       </div>
