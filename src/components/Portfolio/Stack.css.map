@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,KADC,CAAC,GAAG,AACJ,MAAM,CAAC;EACJ,SAAS,EAAE,WAAW;CACzB",
+    "sources": [
+        "Stack.scss"
+    ],
+    "names": [],
+    "file": "Stack.css"
+}
